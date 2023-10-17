@@ -1,27 +1,29 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
 }
 
 .para,
 .small-para {
   color: hsl(0, 0%, 0%);
-  font-weight: 800;
 }
 
-.small-para {
+body .small-para {
   font-size: 14px;
-  font-weight: 800;
 }
 
 .para {
   font-size: 22px;
 }
 
-.confirm {
+body .confirm {
   background: green;
   color: white;
-  font-weight: bold;
 } 
+
+.cancel {
+  font-weight: normal;
+}
 
 .button {
   background-color: rgb(255, 255, 255);
@@ -29,10 +31,10 @@ body {
   font-size: 20px;
 }
 
-.child {
+body div .child {
   color: rgb(0, 0, 0);
-  font-weight: 800;
   font-size: 14px;
+  font-weight: bold;
 }
 
 div.text {
