@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+}
+
+.para,
+.small-para {
+  color: hsl(0, 0%, 0%);
+}
+
+body .small-para {
+  font-size: 14px;
+}
+
+.para {
+  font-size: 22px;
+}
+
+body .confirm {
+  background: green;
+  color: white;
+} 
+
+.cancel {
+  font-weight: normal;
+}
+
+.button {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+}
+
+body div .child {
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+  font-weight: bold;
+}
+
+div.text {
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+  font-weight: 100;
+}

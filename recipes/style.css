@@ -1,0 +1,10 @@
+h1 {
+  color: white;
+  background-color: #000;
+}
+
+img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
