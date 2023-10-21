@@ -3,3 +3,11 @@
   padding: 0;
   font-size: 40px;
 }
+
+.box-one {
+  background-color: red;
+}
+
+.box-two {
+  background-color: blue;
+}
