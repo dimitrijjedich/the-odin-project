@@ -1,7 +1,33 @@
+* {
+  min-height: 39px;
+}
+
 html {
   margin: auto;
   padding: 15px;
   width: 726px;
   background-color: #d0f1d1;
   border: 4px solid #288f00;
+}
+
+.header {
+  padding: 15px;
+  display: flex;
+  blackground-color: #badfeb;
+  border: 4px solid #2b33ff;
+}
+
+.header-second {
+  display: flex;
+  padding: 3px;
+  margin: 7px;
+  flex: 1;
+  blackground-color: #fde1c5;
+  border: 4px solid #fb9585;
+}
+
+.header-third {
+  flex: 1;
+  blackground-color: #fccdd5;
+  border: 4px solid #f92400;
 }
