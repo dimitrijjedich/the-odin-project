@@ -21,11 +21,13 @@ body {
 .header-left {
   display: flex;
   justify-content: center;
+  gap: 16px;
 }
 
 .header-right {
   display: flex;
   justify-content: center;
+  gap: 16px;
 }
 
 .profile-image {
@@ -61,4 +63,5 @@ ul {
   list-style-type: none;
   padding: 0;
   display: flex;
+  gap: 16px;
 }
