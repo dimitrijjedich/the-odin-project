@@ -37,4 +37,5 @@ input {
 ul {
   list-style-type: none;
   padding: 0;
+  display: flex;
 }
