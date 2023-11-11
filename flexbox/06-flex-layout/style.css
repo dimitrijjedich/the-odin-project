@@ -3,7 +3,7 @@
 body {
   height: 100vh;
   margin: 0;
-  padding: 16px;
+  padding: 0 16px;
   overflow: hidden;
   font-family: Roboto, sans-serif;
   display: flex;
