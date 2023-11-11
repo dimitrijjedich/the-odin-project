@@ -34,6 +34,7 @@ body {
 
 .sidebar {
   width: 300px;
+  padding: 16px;
   background: royalblue;
   box-sizing: border-box;
   display: flex;
