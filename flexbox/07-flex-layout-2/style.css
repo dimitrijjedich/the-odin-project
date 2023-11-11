@@ -12,6 +12,9 @@ body {
   font-weight: 900;
   background: darkmagenta;
   color: white;
+  display: flex;
+  flex: 1 0 auto;
+  align-items: center;
 }
 
 .footer {
