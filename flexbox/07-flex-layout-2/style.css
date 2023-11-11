@@ -36,6 +36,10 @@ body {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
+  dispaly: flex;
+  flex-direction: column;
+  align-items: left;
+  flex: 1 0 auto;
 }
 
 .card {
