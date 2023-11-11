@@ -8,6 +8,8 @@ body {
 
 .header {
   height: 72px;
+  font-size: 32px;
+  font-weight: 900;
   background: darkmagenta;
   color: white;
 }
