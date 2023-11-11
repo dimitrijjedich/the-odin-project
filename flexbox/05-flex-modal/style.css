@@ -39,6 +39,17 @@ body {
   flex: 1 0 auto;
 }
 
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.content-header {
+  display: flex;
+  justify-content: space-between;
+}
+
 .close-button {
   background: #eee;
   border-radius: 50%;
