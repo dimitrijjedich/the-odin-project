@@ -16,6 +16,10 @@ body {
   color: darkmagenta;
 }
 
+.main {
+  display: flex;
+}
+
 .sidebar {
   width: 300px;
   background: royalblue;
