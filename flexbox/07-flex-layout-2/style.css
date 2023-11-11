@@ -37,8 +37,6 @@ body {
   padding: 16px;
   background: royalblue;
   box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
   flex: 1 0 auto;
 }
 
