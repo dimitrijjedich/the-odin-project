@@ -13,7 +13,7 @@ html {
 .header {
   padding: 15px;
   display: flex;
-  blackground-color: #badfeb;
+  background-color: #badfeb;
   border: 4px solid #2b33ff;
 }
 
@@ -22,13 +22,13 @@ html {
   padding: 3px;
   margin: 7px;
   flex: 1;
-  blackground-color: #fde1c5;
+  background-color: #fde1c5;
   border: 4px solid #fb9585;
 }
 
 .header-third {
   flex: 1;
-  blackground-color: #fccdd5;
+  background-color: #fccdd5;
   border: 4px solid #f92400;
 }
 
