@@ -10,6 +10,12 @@ html {
   border: 4px solid #288f00;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
 .header {
   padding: 15px;
   display: flex;
@@ -32,9 +38,28 @@ html {
   border: 4px solid #f92400;
 }
 
+.main {
+  display: flex;
+  gap: 15px;
+}
+
+.content, .side-item {
+  flex: 1;
+  background-color: #fcc8c7;
+  border: 4px solid #b0332c;
+}
+
+.side {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 15px;
+}
+
 .footer {
   padding: 7px;
   display: flex;
+  gap: 8px;
   background-color: #badfeb;
   border: 4px solid #2b33ff;
 }
