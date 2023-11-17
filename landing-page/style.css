@@ -6,6 +6,7 @@
 .header, .footer {
   height: 48px;
   flex: 0 0 auto;
+  background-color: #1F2937;
 }
 
 .main {
