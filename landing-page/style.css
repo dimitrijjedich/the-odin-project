@@ -13,6 +13,12 @@
   background-color: #1F2937;
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .main {
   felx: 1;
 }
