@@ -23,3 +23,8 @@
   align-items: center;
   color: #fff;
 }
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
