@@ -32,6 +32,11 @@ h1 {
   felx: 1;
 }
 
+.intro {
+  display: flex;
+  align-items:center;
+  background-color: #1F2937;
+}
 .footer {
   display: flex;
   justify-content: center;
