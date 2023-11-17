@@ -7,6 +7,12 @@
   flex-direction: column;
 }
 
+h1 {
+  font-size: 24px;
+  font-weight: 900;
+  color: #F9FAF8;
+}
+
 .header, .footer {
   height: 48px;
   flex: 0 0 auto;
