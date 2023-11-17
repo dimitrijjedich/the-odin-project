@@ -33,6 +33,7 @@ h1 {
 }
 
 .intro {
+  width: 100%;
   display: flex;
   align-items:center;
   background-color: #1F2937;
