@@ -86,6 +86,8 @@ h1 {
 .information > .cards {
   display: flex;
   justify-content: center;
+  gap: 32px;
+}
 }
 
 .footer {
