@@ -71,7 +71,10 @@ h1 {
   align-items: center;
 }
 
+
+
 .footer {
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
