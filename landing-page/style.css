@@ -2,7 +2,7 @@
   font-family: roboto;
 }
 
-.body {
+body {
   display: flex;
   flex-direction: column;
 }
@@ -29,7 +29,7 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  felx: 1;
+  flex: 1;
 }
 
 .intro {
