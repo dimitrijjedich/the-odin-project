@@ -26,6 +26,9 @@ h1 {
 }
 
 .main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   felx: 1;
 }
 
