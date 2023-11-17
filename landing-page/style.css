@@ -37,6 +37,10 @@ h1 {
 }
 
 ul {
+  display: flex;
+  gap: 16px;
+  font-size: 18px;
+  color: #E5E7EB;
   list-style-type: none;
   padding: 0;
 }
