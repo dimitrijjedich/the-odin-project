@@ -1,3 +1,7 @@
+* {
+  font-style: robot;
+}
+
 .body {
   display: flex;
   flex-direction: column;
