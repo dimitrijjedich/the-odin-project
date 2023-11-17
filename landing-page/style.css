@@ -3,8 +3,9 @@
   flex-direction: column;
 }
 
-.header {
-
+.header, .footer {
+  height: 48px;
+  flex: 0 0 auto;
 }
 
 .main {
