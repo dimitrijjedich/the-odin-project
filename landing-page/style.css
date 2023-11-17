@@ -54,7 +54,7 @@ h1 {
   color: #E5E7EB;
 }
 
-.intro > .left > button {
+.intro > .left > button, .cta > .box > .right > button {
   background-color: #3882F6;
   font-weight: bold;
   color: #fff;
