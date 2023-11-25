@@ -46,8 +46,6 @@ console.log(greeting);
 
   The greeting should say: "Hello! My name is Carlos Stevenson and I am 17 years old."
 
-*/
-
 //===== Your code goes here =================
 let birthYear = 1948;
 let thisYear = 1965;
@@ -55,8 +53,6 @@ let firstName = "Carlos";
 let lastName = "Stevenson";
 
 let greeting = "Hello! My name is " + firstName + " " + lastName + " and I am " + (thisYear - birthYear) + " years old.";
-
-/*
 
   ===== Step 3: =====
   Now that you have the code working again, let's go back over it and, using the instructions below, edit it to make it easier to read.
