@@ -10,8 +10,6 @@
   
   After making your prediction, press 'Run' at the top and look at the output in the console. If you were surprised by anything, go back and look at the code to see what's going on.
 
-*/
-
 // code to be deleted
 const birthYear = 1948;
 const thisYear = 1965;
@@ -21,8 +19,6 @@ const lastName = "Stevenson";
 const greeting = "Hello! My name is " + firstName + " " + lastName + " and I am " + (thisYear - birthYear) + " years old.";
 
 console.log(greeting);
-
-/*
 
   ===== Step 2: =====
   Once you understand the code snippet above, delete it. Then, using the following instructions, recreate the snippet on your own under "Your code goes here".
