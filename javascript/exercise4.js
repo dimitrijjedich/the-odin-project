@@ -54,7 +54,7 @@ let thisYear = 1965;
 let firstName = "Carlos";
 let lastName = "Stevenson";
 
-let greeting = "Hello! My name is " + firstName + lastName + " and i am " + (thisYear - birthYear) + "years old.";
+let greeting = "Hello! My name is " + firstName + " " + lastName + " and I am " + (thisYear - birthYear) + " years old.";
 
 /*
 
