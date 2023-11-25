@@ -49,7 +49,10 @@ console.log(greeting);
 */
 
 //===== Your code goes here =================
-
+let birthYear = 1948;
+let year = 1965;
+let firstName = "Carlos";
+let lastName = "Stevenson";
 
 /*
 
