@@ -17,6 +17,9 @@
     function capitalize(text) {
       return text.charAt(0).toUpperCase() + text.slice(1);
     }
+    function lastLetter(text) {
+      return text.slice(-1);
+    }
     console.log("Result of calling add7 with parameter 10");
     console.log(add7(10));
     console.log("Result of calling multiply with parameters 3 and 7");
@@ -25,6 +28,10 @@
     console.log(capitalize("hello"));
     console.log(capitalize("World"));
     console.log(capitalize("testText"));
+    console.log("Logs of the call to lastLetter method with: hello, World, testTEXT");
+    console.log(lastLetter("hello"));
+    console.log(lastLetter("World"));
+    console.log(lastLetter("testTEXT"));
   </script>
 </body>
 </html>
