@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Fizz Buzz</title>
+</head>
+<body>
+  <script>
+    // Your JavaScript goes here!
+    console.log("Hello, World!")
+    const limit = 200;
+    for (let i=1; i<=limit; i++) {
+      let result = "";
+      if (i % 3 == 0) {
+        result = "fizz ";
+      }
+      if (i % 5 == 0) {
+        result = result + "buzz";
+      }
+      if (result == "") {
+        result = i;
+      }
+      console.log(result);
+    }
+  </script>
+</body>
+</html>
