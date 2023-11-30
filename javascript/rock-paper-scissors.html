@@ -21,6 +21,15 @@
       if (playerDecision == compuerDecision) {
         return playRound(playerDecision, getComputerChoice());
       }
+      if (playerDecision == "rock" && computerDecision == "scissiors") {
+        return "You Win! Rock beats Scissors!";
+      }
+      if (playerDecision == "scissors" && computerDecision == "paper") {
+        return "You Win! Scissors beat Paper!";
+      }
+      if (playerDecision == "paper" && computerDecision == "rock") {
+        return "You Win! Paper beats Rock!";
+      }
     }
 
   </script>
