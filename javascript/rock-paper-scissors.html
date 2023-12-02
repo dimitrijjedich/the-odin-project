@@ -18,7 +18,7 @@
     function playRound(playerDecision, computerDecision) {
       // convert player input to lower case
       playerDecision = playerDecision.toLowerCase();
-      if (playerDecision == compuerDecision) {
+      if (playerDecision == computerDecision) {
         return playRound(playerDecision, getComputerChoice());
       }
       if (playerDecision == "rock" && computerDecision == "scissiors") {
