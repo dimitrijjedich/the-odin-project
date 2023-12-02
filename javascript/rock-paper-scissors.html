@@ -19,9 +19,9 @@
       // convert player input to lower case
       playerDecision = playerDecision.toLowerCase();
 
-      // in case the game ties, give computer different choice
+      // in case of equal choice, the game ties
       if (playerDecision == computerDecision) {
-        return playRound(playerDecision, getComputerChoice());
+        return "The game ties! You both choosen " + playerDecision.charAt(0).toUpperCase() + playerDecision.slice(1); 
       }
 
       // all winning cases for player
