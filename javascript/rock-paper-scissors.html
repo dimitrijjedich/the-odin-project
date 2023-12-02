@@ -23,6 +23,8 @@
       if (playerDecision == computerDecision) {
         return playRound(playerDecision, getComputerChoice());
       }
+
+      // all winning cases for player
       if (playerDecision == "rock" && computerDecision == "scissors") {
         return "You Win! Rock beats Scissors!";
       }
