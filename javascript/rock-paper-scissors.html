@@ -34,6 +34,17 @@
       if (playerDecision == "paper" && computerDecision == "rock") {
         return "You Win! Paper beats Rock!";
       }
+
+      // all winning cases for computer
+      if (computerDecision == "rock" && playerDecision == "scissors") {
+        return "You Win! Rock beats Scissors!";
+      }
+      if (computerDecision == "scissors" && playerDecision == "paper") {
+        return "You Win! Scissors beat Paper!";
+      }
+      if (computerDecision == "paper" && playerDecision == "rock") {
+        return "You Win! Paper beats Rock!";
+      }
     }
 
   </script>
