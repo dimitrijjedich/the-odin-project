@@ -18,6 +18,8 @@
     function playRound(playerDecision, computerDecision) {
       // convert player input to lower case
       playerDecision = playerDecision.toLowerCase();
+
+      // in case the game ties, give computer different choice
       if (playerDecision == computerDecision) {
         return playRound(playerDecision, getComputerChoice());
       }
