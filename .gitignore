@@ -1,2 +1,4 @@
 .DS_Store
 *.swp
+javascript/exercise/node_modules/
+javascript/exercise/package-lock.json
