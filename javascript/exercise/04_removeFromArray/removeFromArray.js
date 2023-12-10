@@ -2,8 +2,6 @@ const removeFromArray = function(array, ...elements) {
   let result = [];
   for(let i=0; i<array.length; i++) {
     for (let j=0; j<elements.length; j++) {
-      console.log("arr"+array[i]);
-      console.log("elements"+elements[j]);
       if (!(array[i]===elements[j])) {
         result.push(array[i]);
       }
