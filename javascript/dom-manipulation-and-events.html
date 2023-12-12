@@ -53,6 +53,12 @@
 
     div.classList.toggle('active');
     // if div doesn't have class "active" then add it, or if it does, then remove it
+
+    div.textContent = 'Hello World!';
+    // creates a text node containing "Hello World!" and inserts it in div
+
+    div.innerHTML = '<span>Hello World!</span>';
+    // renders the HTML inside div
   </script>
 </body>
 </html>
