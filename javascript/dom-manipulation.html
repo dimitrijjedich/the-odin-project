@@ -7,12 +7,17 @@
 <body>
   <div id="container"></div>
   <script>
+    // retrieve element with id container
     const container = document.querySelector('#container');
 
+    // create div element
     const content = document.createElement('div');
+    // add class to the new element
     content.classList.add('content');
+    // add text content to new element
     content.textContent = 'This is the glorious text-content!';
 
+    // append the new element as child to previously retrieved container element
     container.appendChild(content);
   </script>
 </body>
