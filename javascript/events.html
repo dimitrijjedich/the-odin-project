@@ -13,6 +13,9 @@
   <button onclick="alertFunction()">CLICK ME BABY</button>
   <button id="btn3">CLICK ME BABY</button>
   <button id="btn4">CLICK ME BABY</button>
+
+  <br />
+  <button id="data">Click me</button>
   <script>
     const btn = document.querySelector('#btn');
     btn.onclick = () => alert("Hello World");
@@ -31,6 +34,11 @@
 
     const btn4 = document.querySelector('#btn4');
     btn4.addEventListener('click', alertFunction);
+
+    data_btn = document.querySelector('#data');
+    data_btn.addEventListener('click', function (e) {
+      console.log(e);
+    });
   </script>
 </body>
 </html>
