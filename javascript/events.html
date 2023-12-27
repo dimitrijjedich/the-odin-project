@@ -7,9 +7,15 @@
 <body>
   <button onclick="alert('Hello World')">Click Me</button>
   <button id="btn">Click Me</button>
+  <button id="btn2">Click Me</button>
   <script>
     const btn = document.querySelector('#btn');
     btn.onclick = () => alert("Hello World");
+
+    const btn2 = document.querySelector('#btn2');
+    btn2.addEventListener('click', () => {
+      alert("Hello World");
+    });
   </script>
 </body>
 </html>
