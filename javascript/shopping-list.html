@@ -39,10 +39,12 @@
         value = input.value;
         input.value = '';
 
-        //Creation of Elements
+        //Creation of Elements and Relations
         const li = document.createElement('li');
         const span = document.createElement('span');
         const button = document.createElement('button');
+        li.appendChild(span);
+        li.appendChild(button);
       }
     </script>
   </body>
