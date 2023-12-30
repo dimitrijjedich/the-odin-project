@@ -48,6 +48,7 @@
         span.textContent = value;
         button.textContent = 'Delete';
         list.appendChild(li);
+        button.onclick = () => button.parentElement.remove();
       }
     </script>
   </body>
