@@ -34,7 +34,7 @@
       list = document.querySelector("ul");
       input = document.querySelector('#item');
       button = document.querySelector("button");
-
+      button.addEventListener('click', buttonClick);
       function buttonClick() {
         value = input.value;
         input.value = '';
