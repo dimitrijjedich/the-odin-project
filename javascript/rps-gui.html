@@ -50,6 +50,11 @@
         return "You Lose! Paper beats Rock!";
       }
     }
+
+    function updateScores(oponent) {
+      score = parseInt(document.querySelector('#'+oponent).textContent,10);
+      document.querySelector('#'+oponent).textContent = score + 1;
+    }
   </script>
 </body>
 </html>
