@@ -28,11 +28,6 @@
     }
 
     function playRound(playerDecision, computerDecision) {
-      // in case of equal choice, the game ties
-      if (playerDecision == computerDecision) {
-        return "The game ties! You both choosen " + playerDecision.charAt(0).toUpperCase() + playerDecision.slice(1); 
-      }
-
       // all winning cases for player
       if (playerDecision == "rock" && computerDecision == "scissors") {
         return "You Win! Rock beats Scissors!";
