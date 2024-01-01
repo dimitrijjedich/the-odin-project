@@ -54,6 +54,11 @@
     function updateScores(oponent) {
       score = parseInt(document.querySelector('#'+oponent).textContent,10);
       document.querySelector('#'+oponent).textContent = score + 1;
+      if (score +1 == 5) {
+        alert('The winner is '+ oponent);
+	document.querySelector('#player').textContent = 0;
+	document.querySelector('#computer').textContent = 0;
+      }
     }
   </script>
 </body>
