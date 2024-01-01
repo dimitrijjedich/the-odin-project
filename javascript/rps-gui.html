@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Rock Paper Scissors</title>
+</head>
+<body>
+  <button id="rock">ROCK</button>
+  <button id="paper">PAPER</button>
+  <button id="scissors">SCISSORS</button>
+  <div>
+    <h2>Scores</h2>
+    Player: <span id="player">0</span>
+    Computer: <span id="computer">0</span>
+  <div>
+  <script>
+    rock = document.querySelector('#rock');
+    paper = document.querySelector('#paper');
+    scissors = document.querySelector('#scissors');
+    rock.onclick = () => playRound('rock', getComputerChoice());
+    paper.onclick = () => playRound('paper', getComputerChoice());
+    scissors.onclick = () => playRound('scissors', getComputerChoice());
+    function getComputerChoice() {
+      let decision = Math.floor(Math.random() * 3);
+      if (decision == 0) return "rock";
+      if (decision == 1) return "paper";
+      if (decision == 2) return "scissors";
+    }
+
+    function playRound(playerDecision, computerDecision) {
+      // all winning cases for player
+      if (playerDecision == "rock" && computerDecision == "scissors") {
+        updateScores('player');
+      }
+      if (playerDecision == "scissors" && computerDecision == "paper") {
+        updateScores('player');
+      }
+      if (playerDecision == "paper" && computerDecision == "rock") {
+        updateScores('player');
+      }
+
+      // all winning cases for computer
+      if (computerDecision == "rock" && playerDecision == "scissors") {
+        updateScores('computer');
+      }
+      if (computerDecision == "scissors" && playerDecision == "paper") {
+        updateScores('computer');
+      }
+      if (computerDecision == "paper" && playerDecision == "rock") {
+        updateScores('computer');
+      }
+    }
+
+    function updateScores(oponent) {
+      score = parseInt(document.querySelector('#'+oponent).textContent,10);
+      document.querySelector('#'+oponent).textContent = score + 1;
+      if (score +1 == 5) {
+        alert('The winner is '+ oponent);
+	document.querySelector('#player').textContent = 0;
+	document.querySelector('#computer').textContent = 0;
+      }
+    }
+  </script>
+</body>
+</html>
