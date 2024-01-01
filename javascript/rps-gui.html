@@ -44,19 +44,6 @@
         return "You Lose! Paper beats Rock!";
       }
     }
-
-    function game() {
-      let playerWins = 0, computerWins=0;
-      for(;playerWins<5 && computerWins<5;) {
-        let input = prompt("Make your choise! What will it be (rock, paper, scissors):");
-        let result = playRound(input, getComputerChoice());
-        if (result.startsWith("You Win!")) playerWins++;
-        else if (result.startsWith("You Lose!")) computerWins++;
-        console.log(result);
-      }
-      if (playerWins==5) console.log("YOU WIN THE GAME!");
-      if (computerWins==5) console.log("YOU LOSE THE GAME!");
-    }
   </script>
 </body>
 </html>
