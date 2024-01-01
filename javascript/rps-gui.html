@@ -17,9 +17,9 @@
     rock = document.querySelector('#rock');
     paper = document.querySelector('#paper');
     scissors = document.querySelector('#scissors');
-    rock.onclick = () => console.log(playRound('rock', getComputerChoice()));
-    paper.onclick = () => console.log(playRound('paper', getComputerChoice()));
-    scissors.onclick = () => console.log(playRound('scissors', getComputerChoice()));
+    rock.onclick = () => playRound('rock', getComputerChoice());
+    paper.onclick = () => playRound('paper', getComputerChoice());
+    scissors.onclick = () => playRound('scissors', getComputerChoice());
     function getComputerChoice() {
       let decision = Math.floor(Math.random() * 3);
       if (decision == 0) return "rock";
@@ -30,24 +30,24 @@
     function playRound(playerDecision, computerDecision) {
       // all winning cases for player
       if (playerDecision == "rock" && computerDecision == "scissors") {
-        return "You Win! Rock beats Scissors!";
+        updateScores('player');
       }
       if (playerDecision == "scissors" && computerDecision == "paper") {
-        return "You Win! Scissors beat Paper!";
+        updateScores('player');
       }
       if (playerDecision == "paper" && computerDecision == "rock") {
-        return "You Win! Paper beats Rock!";
+        updateScores('player');
       }
 
       // all winning cases for computer
       if (computerDecision == "rock" && playerDecision == "scissors") {
-        return "You Lose! Rock beats Scissors!";
+        updateScores('computer');
       }
       if (computerDecision == "scissors" && playerDecision == "paper") {
-        return "You Lose! Scissors beat Paper!";
+        updateScores('computer');
       }
       if (computerDecision == "paper" && playerDecision == "rock") {
-        return "You Lose! Paper beats Rock!";
+        updateScores('computer');
       }
     }
 
