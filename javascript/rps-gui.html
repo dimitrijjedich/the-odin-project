@@ -9,6 +9,12 @@
   <button id="paper">PAPER</button>
   <button id="scissors">SCISSORS</button>
   <script>
+    rock = document.querySelector('#rock');
+    paper = document.querySelector('#paper');
+    scissors = document.querySelector('#scissors');
+    rock.onclick = () => console.log(playRound('rock', getComputerChoice()));
+    paper.onclick = () => console.log(playRound('paper', getComputerChoice()));
+    scissors.onclick = () => console.log(playRound('scissors', getComputerChoice()));
     function getComputerChoice() {
       let decision = Math.floor(Math.random() * 3);
       if (decision == 0) return "rock";
