@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Project: Etch-a-Sketch</title>
+  <style>
+    .drawpad {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .row {
+      display: flex;
+      justify-content: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="drawpad">
+  </div>
+  <script>
+    const matrix = 16;
+    const container = document.querySelector('.drawpad');
+    for (let i=0; i<matrix; i++) {
+      const row = document.createElement('div');
+      row.classList.add('row');
+      for (let i=0; i<matrix; i++) {
+        const element = document.createElement('div');
+        row.appendChild(element);
+      }
+      container.appendChild(row);
+    }
+  </script>
+</body>
+</html>
